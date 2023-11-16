@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking granz.channel.it22.com (be patient)
+
+
+Server Software:        nginx/1.14.2
+Server Hostname:        granz.channel.it22.com
+Server Port:            80
+
+Document Path:          /
+Document Length:        625 bytes
+
+Concurrency Level:      10
+Time taken for tests:   0.369 seconds
+Complete requests:      200
+Failed requests:        67
+   (Connect: 0, Receive: 0, Length: 67, Exceptions: 0)
+Total transferred:      152333 bytes
+HTML transferred:       124933 bytes
+Requests per second:    541.78 [#/sec] (mean)
+Time per request:       18.458 [ms] (mean)
+Time per request:       1.846 [ms] (mean, across all concurrent requests)
+Transfer rate:          402.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1    4   1.6      4       8
+Processing:     3   14   2.1     14      20
+Waiting:        3   14   2.1     14      20
+Total:          4   18   2.6     18      23
+
+Percentage of the requests served within a certain time (ms)
+  50%     18
+  66%     19
+  75%     20
+  80%     20
+  90%     21
+  95%     21
+  98%     23
+  99%     23
+ 100%     23 (longest request)
